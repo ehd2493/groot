@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+    <link rel="stylesheet" href="css/rwd.css">
         	<!--[if lte IE 9]>
 	<script src="js/html5shiv.js"></script>
 	<script src="js/prefixfree.min.js"></script>
@@ -13,24 +14,30 @@
 </head>
 
 <body>
-
-    
 <div class="wrap">
     <header id="top" class="">
         <div class="header logo row cf">
             <h1><a href="#">Groot World<i class="fas fa-tree"></i></a></h1>
+            <p class="openMOgnb">
+                <a href="#none">
+                    <strong class="blind">메뉴열기</strong>
+                       <span></span>
+                       <span></span>
+                       <span></span>
+                </a>
+            </p>
             <nav class="nav cf">
            <ul class="depth1 row cf">
                <li><a href="#">제품목록</a>
                <div class="depth2">
                   <ul>
-                      <li><a href="#">미지정</a></li>
+                      <li><a href="#">피규어</a></li>
                       </ul>
                       <ul>
-                      <li><a href="#">미지정</a></li>
+                      <li><a href="#">인 형</a></li>
                     </ul>
                     <ul>
-                      <li><a href="#">미지정</a></li>
+                      <li><a href="#">기 타</a></li>
                     </ul>
                </div>
                </li>
@@ -40,7 +47,7 @@
             <li><a href="#">인기상품</a></li>
             <div class="depth2">
                 <ul>
-                    <li><a href="#">미지정</a></li>
+                    <li><a href="#"></a></li>
                     </ul>
                     <ul>
                     <li><a href="#">미지정</a></li>
@@ -69,22 +76,29 @@
       </li>
   </ul>
         <ul class="depth1 row">
-            <li><a href="#">문의게시판</a></li>
+            <li><a href="#">고객센터</a></li>
             <div class="depth2">
                 <ul>
-                    <li><a href="#">미지정</a></li>
+                    <li><a href="#">A/S 공지</a></li>
                     </ul>
                     <ul>
-                    <li><a href="#">미지정</a></li>
+                    <li><a href="#">A/S 안내</a></li>
                   </ul>
                   <ul>
-                    <li><a href="#">미지정</a></li>
+                    <li><a href="#">공지사항</a></li>
                   </ul>
              </div>
              </li>
       </li>
-  </ul> 
+  </ul>
  </nav>
+ <p class="closeMOgnb">
+    <a href="#none">
+        <strong class="blind">메뉴닫기</strong>
+        <span></span>
+        <span></span>
+    </a>
+</p>
 </div>
 </header>
 </div>
@@ -96,6 +110,8 @@
         </video>
         <div class="vids"></div>
     </figure>
+    <div class="background2">
+</div>
     </div>
 <div class="goods">
     <li><a href="">인기상품 <strong>TOP3</strong></a></li>

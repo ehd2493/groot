@@ -1,0 +1,566 @@
+@charset "utf-8";
+
+@media  screen  and  (max-width:1050px) {
+    #top {
+        height: 140px; 
+        background: rgba(0, 0, 0, 0.5);
+        color: brown;
+        position: absolute;
+        height: 116px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        }
+      
+      #top h1 {
+        color: #d27328;
+        font-size: 30px;
+        padding-left: 10px;
+        padding-top: 35px;
+        font-weight: bold;
+        font-family: fantasy;
+      }
+      
+      #top i {
+        padding-left: 10px;
+      }
+      
+      
+      #top .nav {
+       position: absolute; top: 65%; right: 10%;
+      }
+      
+      
+      #top .depth1 {width: 200px; color: #d27328;
+      font-weight: bold;
+      text-align: center; float: left; font-size: 20px; padding: 0 25px;
+     }
+      
+      #top .depth1:hover {
+      color: #fff; transition: all 0.5s;
+      
+      }
+      #top .depth1:hover .depth2{
+         transition: all 0.5s;
+        font-weight: normal;
+        margin-top: 16px;
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: #d27328;
+      }
+      
+      #top .depth2 {
+        display:none;
+      font-size: 20px;
+      background:rgba(0, 0, 0, 0.5 );
+      height: 30px;
+      }
+      #top .depth2 li:hover {
+        transition: all 0.5s;
+        background:#d27328; 
+        color: #fff;
+      }
+      #top .depth2 ul{
+ 
+      }
+      
+      
+      
+      /* 바탕 */
+      .background2{
+        background-image: url(../img/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height: 500px;
+      }
+      .vid{
+        display: none;
+      }
+
+      
+      /*top3*/
+      
+      .goods {
+        height: 100px;
+        width: 100%;
+        background:#ffc312
+      }
+      
+      .goods li {
+        content: "";
+        padding-top: 55px ;
+        color: #fff;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 400px;
+      }
+      
+      .goods li strong{
+        font-size:40px ;
+      }
+      
+      .goodss{
+        padding-top: 5px;
+        height: 400px;
+        background:#fff;
+        position: relative;
+      }
+      
+      
+      .goodss img{
+        width: 100%;
+      }
+      .goodss >div {
+        position: relative;
+        float: left;
+        width: 30%;
+       margin-top: 50px;
+      border: 3px solid #ffc312;
+      margin-left: 1.666%;
+        margin-right: 1.666%;
+      }
+      
+      .goodss >div:hover:after{
+        content: "groot111";
+        position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding-top: 40%;
+      font-size: 30px;
+      color: #fff;
+      }
+      
+      .goodss >div.goodsimg2:hover:after{
+        content: "groot222";
+      }
+      
+      .goodss >div.goodsimg3:hover:after{
+        content: "groot333";
+      }
+      
+      .goodss >div:hover{
+        opacity: 0.8;
+        transition:  0.5s;
+      }
+      /*중간바탕*/
+      .deco2  { background-image: url(../img/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+        display: none;
+        height: 300px;}
+        
+      
+      /*상품목록 */
+      
+      
+      .mokrok{
+        height: 1200px;
+        background: #fff;
+      }
+      
+      
+      
+      
+      .mokrokimg{
+      width: 400px;
+      height: 350px;
+      background: #ddd;
+      float: left;
+      border: 2px solid #fff;
+      margin-left: 85px;
+      margin-top: 30px;
+      }
+      
+      
+      
+      .mokrokimg .gt1{
+        height: 280px;
+        padding-top: 25px;
+        margin-left: 120px; 
+      
+      }
+      .mokrokimg .gt2{
+        padding-top: 20px;
+        padding-left: 80px;
+        height: 280px;
+        width: 80%;
+      }
+      
+      .mokrokimg .gt3{
+      padding-top: 50px;
+      margin-left: 120px;
+      height: 280px;
+      
+      }
+      
+      .mokrokimg .gt4{
+      padding-top: 10px;
+      margin-left: 110px;
+      height: 280px;
+      }
+      
+      .mokrokimg .gt5{
+      padding-top: 50px;
+      margin-left: 95px;
+      height: 280px;
+      }
+      
+      .mokrokimg .gt6{
+        margin-left: 70px;
+        padding-top: 20px;
+        padding-left: 50px;
+        height: 280px;
+        width: 200px;
+      }
+      .mokrokimg .text {
+        background: #fff;
+        height: 65px;
+      text-align: center;
+      padding-top: 15px;}
+      
+      .mokrokimg :nth-child(1){
+        font-size: 20px;}
+      
+      
+      .deco1 {
+        width: 100%;
+        height: 50px;
+        background: #ffc312;
+      
+      }
+      
+      .deco1 li {
+        content: "";
+        padding-top: 13px ;
+        color: #fff;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 450px;
+        font-weight: bold;
+      }
+      
+      .deco1 li strong{
+        font-size:40px ;
+      }
+        
+      
+      
+      /*맨밑*/
+      .footer{
+        width: 100%;
+        height: 200px;
+        background: #444;
+        color: #fff;
+        padding-left: 220px;
+        padding-top: 50px;
+      }
+      .footer h1 {
+        padding-bottom: 10px;
+      }
+      
+      .footer h1 i {
+        margin-left: 5px;
+      }
+      .footer p {
+       padding-top: 5px;
+      
+      }
+      
+      .footer .pri:after{
+        content: "|";
+        margin-left: 5px;
+      }
+      
+}
+
+
+@media  screen  and  (max-width:799px) {
+    .wrap {
+        position: relative;
+    }
+    #top {
+
+        background: rgba(0, 0, 0, 0.5);
+        color: brown;
+        position: absolute;
+        height: 95px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+        }
+      
+      #top h1 {
+        color: #d27328;
+        font-size: 40px;
+        position: absolute; top: 35%; left: 50%;
+        transform: translate(-50%,-50%);
+        font-weight: bold;
+        font-family: fantasy;
+      }
+      
+      #top i {
+        padding-left: 10px;
+      }
+      .openMognb{
+          display:block; position:absolute;
+          top:40px; left:20px; width:25px; height:40px; 
+      }
+      .openMOgnb   span  { display:block; width:25px; height:3px;
+        background:#d27328; margin-bottom:4px; 
+        border-radius:10px;     }        
+
+      
+      #top .nav { display: none;
+       position: absolute; top: 65%; right: 10%;
+      }
+      
+      
+      #top .depth1 {width: 200px; color: #d27328;
+      font-weight: bold;
+      text-align: center; float: left; font-size: 20px; padding: 0 25px;
+     }
+      
+      #top .depth1:hover {
+      color: #fff; transition: all 0.5s;
+      
+      }
+      #top .depth1:hover .depth2{
+         transition: all 0.5s;
+        font-weight: normal;
+        margin-top: 16px;
+        display: block;
+        font-size: 20px;
+        text-align: center;
+        color: #d27328;
+      }
+      
+      #top .depth2 {
+        display:none;
+      font-size: 20px;
+      background:rgba(0, 0, 0, 0.5 );
+      height: 30px;
+      }
+      #top .depth2 li:hover {
+        transition: all 0.5s;
+        background:#d27328; 
+        color: #fff;
+      }
+
+      
+      
+      
+      /* 바탕 */
+      .background2{
+        background-image: url(../img/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        height: 450px;
+      }
+      .vid{
+        display: none;
+      }
+
+      
+      /*top3*/
+      
+      .goods {
+        height: 100px;
+        width: 100%;
+        background:#ffc312
+      }
+      
+      .goods li {
+        content: "";
+        padding-top: 55px ;
+        color: #fff;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 400px;
+      }
+      
+      .goods li strong{
+        font-size:40px ;
+      }
+      
+      .goodss{
+        padding-top: 5px;
+        height: 400px;
+        background:#fff;
+        position: relative;
+      }
+      
+      
+      .goodss img{
+        width: 100%;
+      }
+      .goodss >div {
+        position: relative;
+        float: left;
+        width: 30%;
+       margin-top: 50px;
+      border: 3px solid #ffc312;
+      margin-left: 1.666%;
+        margin-right: 1.666%;
+      }
+      
+      .goodss >div:hover:after{
+        content: "groot111";
+        position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding-top: 40%;
+      font-size: 30px;
+      color: #fff;
+      }
+      
+      .goodss >div.goodsimg2:hover:after{
+        content: "groot222";
+      }
+      
+      .goodss >div.goodsimg3:hover:after{
+        content: "groot333";
+      }
+      
+      .goodss >div:hover{
+        opacity: 0.8;
+        transition:  0.5s;
+      }
+      /*중간바탕*/
+      .deco2  { background-image: url(../img/background2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center;
+        background-attachment: fixed;
+        display: none;
+        height: 300px;}
+        
+      
+      /*상품목록 */
+      
+      
+      .mokrok{
+        height: 1200px;
+        background: #fff;
+      }
+      
+      
+      
+      
+      .mokrokimg{
+      width: 400px;
+      height: 350px;
+      background: #ddd;
+      float: left;
+      border: 2px solid #fff;
+      margin-left: 85px;
+      margin-top: 30px;
+      }
+      
+      
+      
+      .mokrokimg .gt1{
+        height: 280px;
+        padding-top: 25px;
+        margin-left: 120px; 
+      
+      }
+      .mokrokimg .gt2{
+        padding-top: 20px;
+        padding-left: 80px;
+        height: 280px;
+        width: 80%;
+      }
+      
+      .mokrokimg .gt3{
+      padding-top: 50px;
+      margin-left: 120px;
+      height: 280px;
+      
+      }
+      
+      .mokrokimg .gt4{
+      padding-top: 10px;
+      margin-left: 110px;
+      height: 280px;
+      }
+      
+      .mokrokimg .gt5{
+      padding-top: 50px;
+      margin-left: 95px;
+      height: 280px;
+      }
+      
+      .mokrokimg .gt6{
+        margin-left: 70px;
+        padding-top: 20px;
+        padding-left: 50px;
+        height: 280px;
+        width: 200px;
+      }
+      .mokrokimg .text {
+        background: #fff;
+        height: 65px;
+      text-align: center;
+      padding-top: 15px;}
+      
+      .mokrokimg :nth-child(1){
+        font-size: 20px;}
+      
+      
+      .deco1 {
+        width: 100%;
+        height: 30px;
+        background: #ffc312;
+      
+      }
+      
+      .deco1 li {
+        content: "";
+        padding-top: 13px ;
+        color: #fff;
+        font-size: 30px;
+        text-align: left;
+        padding-left: 450px;
+        font-weight: bold;
+      }
+      
+      .deco1 li strong{
+        font-size:40px ;
+      }
+        
+      
+      
+      /*맨밑*/
+      .footer{
+        width: 100%;
+        height: 200px;
+        background: #444;
+        color: #fff;
+        padding-left: 220px;
+        padding-top: 50px;
+      }
+      .footer h1 {
+        padding-bottom: 10px;
+      }
+      
+      .footer h1 i {
+        margin-left: 5px;
+      }
+      .footer p {
+       padding-top: 5px;
+      
+      }
+      
+      .footer .pri:after{
+        content: "|";
+        margin-left: 5px;
+      }
+      
+}
