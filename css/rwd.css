@@ -307,9 +307,12 @@
       #top i {
         padding-left: 10px;
       }
+
+
       .openMognb{
           display:block; position:absolute;
-          top:40px; left:20px; width:25px; height:40px; 
+          top:40px; left:50px; width:25px; height:40px; 
+          border: 5px solid #fff; 
       }
       .openMOgnb   span  { display:block; width:25px; height:3px;
         background:#d27328; margin-bottom:4px; 
@@ -371,22 +374,22 @@
       /*top3*/
       
       .goods {
-        height: 100px;
+        height: 50px;
         width: 100%;
         background:#ffc312
       }
       
       .goods li {
         content: "";
-        padding-top: 55px ;
+        padding-top: 10px ;
         color: #fff;
-        font-size: 30px;
+        font-size: 20px;
         text-align: left;
-        padding-left: 400px;
+        padding-left: 325px;
       }
       
       .goods li strong{
-        font-size:40px ;
+        font-size:28px ;
       }
       
       .goodss{
@@ -446,7 +449,7 @@
       
       
       .mokrok{
-        height: 1200px;
+        height: 1000px;
         background: #fff;
       }
       
@@ -454,82 +457,73 @@
       
       
       .mokrokimg{
-      width: 400px;
-      height: 350px;
+      width: 280px;
+      height: 300px;
       background: #ddd;
       float: left;
       border: 2px solid #fff;
       margin-left: 85px;
       margin-top: 30px;
       }
-      
-      
+
       
       .mokrokimg .gt1{
-        height: 280px;
-        padding-top: 25px;
-        margin-left: 120px; 
+        width: 150px;
+        height: 250px;
       
       }
       .mokrokimg .gt2{
-        padding-top: 20px;
-        padding-left: 80px;
-        height: 280px;
-        width: 80%;
+       width: 250px;
+       height: 250px;
       }
       
       .mokrokimg .gt3{
-      padding-top: 50px;
-      margin-left: 120px;
-      height: 280px;
-      
+       width: 150px;
+      height: 250px;
       }
       
       .mokrokimg .gt4{
-      padding-top: 10px;
-      margin-left: 110px;
-      height: 280px;
+       width: 180px;
+       height: 250px;
       }
       
       .mokrokimg .gt5{
-      padding-top: 50px;
-      margin-left: 95px;
-      height: 280px;
+
       }
       
       .mokrokimg .gt6{
-        margin-left: 70px;
-        padding-top: 20px;
-        padding-left: 50px;
-        height: 280px;
-        width: 200px;
+      width: 200px;
+      height: 250px;
       }
+
       .mokrokimg .text {
         background: #fff;
-        height: 65px;
+        height: 20px;
       text-align: center;
-      padding-top: 15px;}
+      padding-top: 15px;
+       display: none;}
       
       .mokrokimg :nth-child(1){
-        font-size: 20px;}
+        font-size: 10px;}
       
       
       .deco1 {
-        width: 100%;
         height: 30px;
-        background: #ffc312;
-      
+        width: 100%;
+        background:#ffc312;
       }
       
       .deco1 li {
+        border:1px solid #000;
         content: "";
-        padding-top: 13px ;
         color: #fff;
-        font-size: 30px;
+        font-size: 20px;
         text-align: left;
-        padding-left: 450px;
+        padding-left: 350px;
         font-weight: bold;
+        
       }
+      
       
       .deco1 li strong{
         font-size:40px ;
@@ -543,7 +537,7 @@
         height: 200px;
         background: #444;
         color: #fff;
-        padding-left: 220px;
+        padding-left: 150px;
         padding-top: 50px;
       }
       .footer h1 {
@@ -555,9 +549,13 @@
       }
       .footer p {
        padding-top: 5px;
-      
+      font-size: 13px;
       }
       
+     .footer span{
+       font-size: 13px;
+     }
+
       .footer .pri:after{
         content: "|";
         margin-left: 5px;
